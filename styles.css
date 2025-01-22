@@ -1,0 +1,25 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  line-height: 1.6;
+  color: rgb(26, 26, 67);
+  text-align: center;
+  background-color: rgb(198, 198, 173);
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: rgb(198, 198, 173);
+}
+
+a {
+  background-color: rgb(26, 26, 67);
+  margin: 10px 10px;
+  text-decoration: none;
+  color: inherit;
+  font-size: 20px;
+  padding: 10px 10px;
+  border-radius: 5px;
+}

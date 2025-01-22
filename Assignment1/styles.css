@@ -1,0 +1,33 @@
+body {
+    font-family: "Rhodium Libre", serif;
+  line-height: 1.6;
+  font-weight: bold;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
+}
+
+.container {
+  width: 350px;
+  height: auto;
+  border-radius: 2%;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  background-color:rgb(244, 0, 151);
+  text-align: center;
+  margin-top: -30px;
+  height: 50px;
+  color: black;
+  padding: 10px 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 30px;
+}
+

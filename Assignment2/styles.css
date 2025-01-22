@@ -1,0 +1,110 @@
+body {
+  max-width: 1280px;
+  font-family: "Lato", serif;
+  line-height: 1.6;
+  background: #ffffff;
+}
+
+header {
+  margin-top: 96px;
+  margin-bottom: 48px;
+  margin-left: 264px;
+  width: 415px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+header h1 {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 38.4px;
+}
+
+header p {
+  margin-top: 48px;
+}
+
+span {
+  color: rgb(1, 237, 80);
+  font-weight: 800;
+}
+
+main {
+  height: 450px;
+  background: #666666;
+  border-top: 8px solid #999999;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  text-align: left;
+}
+
+/* Container */
+.container {
+  width: 800px;
+  margin: 72px auto;
+  padding-top: 8px;
+  border: 0px 0px 8px 0px;
+  background: #ffffff;
+  border-bottom: 8px solid #999999;
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 28.8px;
+  margin-left: -8px;
+  background: #ffbf00;
+  padding: 16px 32px;
+  border-bottom: 8px solid #cc9900;
+  display: inline-block;
+}
+
+.container p {
+  width: 752px;
+  margin-left: 24px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+/* Tablet view: Adjust for screens 768px and smaller */
+@media (max-width: 768px) {
+  header {
+    margin-left: 24px;
+    letter-spacing: -0.005em;
+  }
+
+  span {
+    letter-spacing: -0.005em;
+  }
+
+  main {
+    width: max-content;
+    height: 456px;
+  }
+}
+
+/* Smartphone view: Adjust for screens 480px and smaller */
+@media (max-width: 480px) {
+  header {
+    width: 342px;
+  }
+
+  main {
+    width: 390px;
+    height: 767px;
+  }
+
+  .container {
+    width: inherit;
+  }
+
+  .container p {
+    width: inherit;
+    width: 342px;
+  }
+}
