@@ -1,0 +1,48 @@
+body {
+    font-family: "Stoke", serif;
+    line-height: 1.6;
+    color: rgb(21, 20, 20);
+    background-color: rgb(188, 176, 197);
+    padding: 50px;
+}
+
+.container {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.ad-header {
+    background-color: rgb(245, 245, 175);
+    margin-left: -10px;
+    margin-top: 10px;
+    padding: 8px 25px 8px 10px;
+    font-size: 12px;
+    border-radius: 30px 150px 150px 30px;
+    display: inline-block;
+    position: absolute;
+}
+
+.ad-picture {
+    width: inherit;
+    height: auto;
+    border-radius: 15px 15px 0 0;
+}
+
+h2 {
+    padding-left: 20px;
+    span {
+        color: grey;
+        font-size: 20px;
+        font-weight: 100;
+    }
+}
+
+p {
+    padding-left: 20px;
+    font-size: 15px;
+    margin-top: -10px;
+}
