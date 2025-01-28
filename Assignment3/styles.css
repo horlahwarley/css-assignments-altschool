@@ -49,7 +49,7 @@ p {
 
 @media (max-width: 480px) {
     .container {
-      width: 350px;
-      align-self: center;
+      width: 250px;
+      height:auto;
     }
 }
