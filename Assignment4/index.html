@@ -5,21 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign up page</title>
     <link rel="stylesheet" href="styles.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.cdnfonts.com/css/sofia-pro" rel="stylesheet">
-</head>
+    <link href="https://fonts.cdnfonts.com/css/sofia-pro" rel="stylesheet" />
+  </head>
   <body>
-    <img
-      src="/AltSchool/Assets/Images/Sign up logo.png"
-      alt="Logo"
-      class="logo"
-    />
-    <div class="header">
-      <h1>For Individuals</h1>
-      <p>
-        Start benefiting from the wellness experience. For companies looking on
-        increasing productivity, and improving organization wellness.
-      </p>
+    <div class="left-side">
+      <img
+        src="/AltSchool/Assets/Images/Sign up logo.png"
+        alt="Logo"
+        class="logo"
+      />
+      <div class="header">
+        <h1>For Individuals</h1>
+        <p>
+          Start benefiting from the wellness experience. For companies looking
+          on increasing productivity, and improving organization wellness.
+        </p>
+        <p class="responsive-paragraph">
+          Inspiring wholesome harmony for the mind, body and spirit, for
+          everyone, everywhere.
+        </p>
+      </div>
     </div>
     <div class="container">
       <form action="/submit_form" method="post">
@@ -46,46 +51,62 @@
           </div>
           <div class="details">
             <label for="dob">Date of Birth</label>
-            <input type="date" id="dob" name="dob" placeholder="Select here" required>
+            <input type="date" id="dob" name="dob" required />
           </div>
         </div>
 
         <div class="row">
-            <div class="details">
-                <label for="height">Height(CM)</label>
-                <input type="number" id="height" name="height" placeholder="Enter height here" required>
-            </div>
-            <div class="details">
-                <label for="weight">Weight(CM)</label>
-                <input type="number" id="weight" name="weight" placeholder="Enter weight here" required>
-            </div>
-        </div>
-
-        <div class="one_row">
-            <label for="activity-level">Activity Level</label>
-            <select name="activity-level" id="activity-level" >
-                <option value="select here" disabled selected>Select here</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-            </select>
-        </div>
-
-        <div class="one_row">
-            <!-- Password input -->
-            <label for="password">Password</label>
+          <div class="details">
+            <label for="height">Height(CM)</label>
             <input
-              type="password"
-              id="password"
-              name="password"
-              placeholder="Enter your password"
+              type="text"
+              id="height"
+              name="height"
+              placeholder="Enter height here"
               required
             />
+          </div>
+          <div class="details">
+            <label for="weight">Weight(CM)</label>
+            <input
+              type="text"
+              id="weight"
+              name="weight"
+              placeholder="Enter weight here"
+              required
+            />
+          </div>
         </div>
 
-        <button type="submit">Register</button>
+        <label for="activity-level">Activity Level</label>
+        <select name="activity-level" id="activity-level" required>
+          <option value="select here" disabled selected>Select here</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+        </select>
 
-        <p>By clicking Register, you agree to our <span>Terms of Use</span> and our <span>Privacy Policy</span></p>
+        <!-- Password input -->
+        <div class="password-configuration">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Enter your password"
+            required
+          />
+          <button type="button">
+            <img src="../Assets/show.png" alt="show/hide" />
+          </button>
+        </div>
+
+        <button class="submit" type="submit">Register</button>
+
+        <p>
+          By clicking Register, you agree to our <span>Terms of Use</span> and
+          our <span>Privacy Policy</span>
+        </p>
       </form>
     </div>
   </body>

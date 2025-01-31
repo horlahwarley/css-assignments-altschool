@@ -1,7 +1,7 @@
 body {
   font-family: "Rhodium Libre", serif;
   line-height: 1.6;
-  font-weight: bold;
+  font-weight: 800;
   background-color: #f4f4f4;
   color: #333;
   padding: 20px;
@@ -9,8 +9,7 @@ body {
 
 .container {
   width: 350px;
-  height: auto;
-  border-radius: 2%;
+  border-radius: 5px;
   margin: 0 auto;
   padding: 20px;
   background: #fff;
@@ -29,4 +28,20 @@ header {
 header h1 {
   margin: 0;
   font-size: 30px;
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 10px;
+  }
+
+  .container {
+    margin-top: 50px;
+    width: 90%;
+    padding: 10px;
+  }
+
+  header h1 {
+    font-size: 24px;
+  }
 }

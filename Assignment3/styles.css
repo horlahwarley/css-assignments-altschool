@@ -27,7 +27,7 @@ body {
 }
 
 .ad-picture {
-    width: inherit;
+    max-width: 100%;
     height: auto;
     border-radius: 10px 10px 0 0;
 }
@@ -48,8 +48,28 @@ p {
 }
 
 @media (max-width: 480px) {
+    body {
+        padding: 20px;
+    }
+
     .container {
-      width: 250px;
-      height:auto;
+        width: 90%;
+        padding: 10px;
+    }
+
+    .ad-header {
+        font-size: 10px;
+        padding: 5px 15px 5px 5px;
+        margin-left: -20px;
+    }
+
+    h2 {
+        padding-left: 10px;
+        font-size: 18px;
+    }
+
+    p {
+        padding-left: 10px;
+        font-size: 14px;
     }
 }
