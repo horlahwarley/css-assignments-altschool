@@ -128,7 +128,7 @@ input::placeholder {
   cursor: pointer;
   padding: 0;
   color: #6b7280;
-  top: 67%;
+  top: 50px;
   right: 10px;
   transform: translateY(-50%);
 }
@@ -217,8 +217,9 @@ input::placeholder {
     margin: 0 auto 20px;
   }
 
-  .password-configuration button {
-    top: 50%;
-    right: 10px;
+  .password-configuration label {
+    display: block;
+    margin-left: inherit;
   }
+  
 }
