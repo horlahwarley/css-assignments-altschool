@@ -9,6 +9,10 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=42dot+Sans:wght@300..800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
@@ -74,28 +78,50 @@
                 <h2>Your Payment Information</h2>
                 <div class="card-input">
                   <label for="cardNumber">Credit Card</label>
-                  <input
-                    type="text"
-                    id="cardNumber"
-                    name="cardNumber"
-                    placeholder="Card Number          MM/YY  CVC"
-                    required
-                  />
+                  <div class="card-fields">
+                    <input
+                      type="text"
+                      id="cardNumber"
+                      placeholder="Card Number                                                                            MM/YY     CVC"
+                      required
+                    />
+                  </div>
                 </div>
               </li>
             </ol>
-
-            <button class="submit" type="submit">Buy WP Pusher</button>
-            <p>Need any help? Don't hesitate to contact support!</p>
           </form>
+          <button class="submit" type="submit">Buy WP Pusher</button>
+          <p>
+            <strong>Need any help?</strong> Don't hesitate to contact support!
+          </p>
+          <img src="./powered_by_stripe.png" alt="powered_by_stripe" />
         </div>
         <div class="right">
-          <div class="header2">
-            <h1>Order Summary</h1>
-          </div>
+          <h3>Freelancer</h3>
+          <p class="price"><sup>$</sup>99<sub>/ year</sub></p>
+          <p class="renews">Automatically renews after 1 year</p>
+          <ul>
+            <li>Use on 5 client sites</li>
+            <li>Private repositories</li>
+            <li>Email support</li>
+          </ul>
+          <p class="switch">Need <strong>20</strong> client sites?
+              <a href="#">Switch to the Agency plan.</a>
+          </p>
+
+          <blockquote>
+            <em
+              >FTP is horrible to deal with. <strong>WP Pusher</strong> solves
+              that issue, and the customer support is awesome!</em
+            >
+          </blockquote>
+
+          <section>
+            <p> Kirk Beard</p>
+          </section>
         </div>
       </div>
     </main>
-    <footer>&copy; 2018 WP Pusher IVS · Terms of Service</footer>
+    <footer>&copy; 2018 WP Pusher IVS · <span>Terms of Service</span></footer>
   </body>
 </html>
